@@ -1,0 +1,42 @@
+{
+    "name": "oasin/epaycore",
+    "type": "library",
+    "description": "Epaycore gateway for Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "Epaycore",
+        "purchase"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kelvin Militia",
+            "email": "oasintech@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\EpayCore\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnipay\\EpayCore\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "omnipay/common": "^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3.0"
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
