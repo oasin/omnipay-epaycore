@@ -20,8 +20,8 @@ class PurchaseRequest extends AbstractRequest
         $data['epc_currency_code'] = $this->getCurrency(); // USD, EUR or OAU
         $data['epc_order_id'] = $this->getTransactionId();
         $data['epc_status_url'] = $this->getNotifyUrl();
-        $data['epc_success_url	'] = $this->getReturnUrl();
-        $data['epc_cancel_url	'] = $this->getCancelUrl();
+        $data['epc_success_url'] = $this->getReturnUrl();
+        $data['epc_cancel_url'] = $this->getCancelUrl();
         $data['epc_descr'] = $this->getDescription();
 
         $sign = [
